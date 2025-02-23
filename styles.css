@@ -1,47 +1,61 @@
 @font-face {
     font-family: "overused grotesk";
-    src:
-      url("./OverusedGrotesk-VF.ttf") format("ttf");
-  }
+    src: url("./OverusedGrotesk-VF.ttf") format("truetype");
+}
 
-  * {
-    font-family: overused grotesk;
-  }
-
-  body {
+* {
+    font-family: "overused grotesk";
     text-align: center;
-  }
+}
 
-  .divGrid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    grid-gap: 1vw;
-  }
-
-  .divTitle {
+.divTitle {
     width: 100%;
-  }
+    text-align: center;
+}
 
-  h1 {
+h1 {
     display: inline;
     width: fit-content;
     font-size: 4vw;
-  }
+}
 
-  h2 {
+h2 {
     display: inline;
     width: fit-content;
     font-size: 2vw;
-  }
+}
 
-  a,  a:visited, .thum {
+a,
+a:visited,
+.thum {
     min-width: 24vw;
     max-width: 32vw;
     margin: auto auto;
     color: black;
-  }
+}
 
-  a:active {
-    color: blue
-  }
+a:active {
+    color: blue;
+}
+
+.gridContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.divGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: auto;
+}
+
+h3 {
+    display: inline;
+    width: 100%;
+    font-size: 2vw;
+    text-align: left;
+    margin-left: auto;
+    font-variation-settings: "slnt" -10;
+}
