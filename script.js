@@ -31,6 +31,9 @@ const imgs = [
     "pecan",
     "Plarnathon_March_2025",
     "SpringFeverSunday2025",
+    "Trinity_Logo_Emblem_Circle_1",
+    "Trinity_Logo_Emblem_Circle_2",
+    "Trinity_Logo_Emblem_Circle_3",
     "wayseek",
     "wedmeal",
 ];
