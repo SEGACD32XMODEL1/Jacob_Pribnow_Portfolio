@@ -49,12 +49,14 @@ for (let i = 0; i < imgs.length; i++) {
     let aTag = document.createElement("a");
     aTag.href = imgFolder + imgs[i] + dotPng;
     aTag.dataset.fslightbox = "gallery";
+    aTag.style.backgroundColor = "#fff";
 
     let imgTag = document.createElement("img");
     imgTag.src = thumsFolder + imgs[i] + dotJpg;
     imgTag.className = "thum";
     imgTag.setAttribute("rel", "preload");
     imgTag.setAttribute("as", "image");
+    imgTag.style.backgroundColor = "rgba(255,255,255,0) !important";
 
     aTag.appendChild(imgTag);
     document.getElementById("divGrid").appendChild(aTag);
